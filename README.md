@@ -2,7 +2,7 @@
 
 Welcome to my personal portfolio! This project showcases my journey as a **Frontend Developer**, featuring a collection of my best work, technical skills, and background.
 
-### 🔗 Live Demo: [APKA_VERCEL_LINK_YAHAN_DALO]
+### 🔗 Live Demo: https://my-portfolio-ashen-kappa-89.vercel.app/
 
 ---
 

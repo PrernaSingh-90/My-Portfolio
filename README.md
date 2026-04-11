@@ -1,16 +1,61 @@
-# React + Vite
+# 🚀 My Professional Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio! This project showcases my journey as a **Frontend Developer**, featuring a collection of my best work, technical skills, and background.
 
-Currently, two official plugins are available:
+### 🔗 Live Demo: [APKA_VERCEL_LINK_YAHAN_DALO]
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 📸 Previews
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+![Hero Section](./screenshots/hero-page.png)
+*Modern Hero Section with 3D Character and Animations*
 
-## Expanding the ESLint configuration
+![About Section](./screenshots/about-page.png)
+*Modern About Section with 3D Character and Animations*
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![Projects Grid](./screenshots/project-page.png)
+*Responsive Projects Showcase with Multi-Device Mockups*
+
+---
+
+## ✨ Key Features
+- **Modern UI/UX:** Clean, dark-themed design with orange accents.
+- **Fully Responsive:** Optimized for Mobile, Tablet, and Desktop screens.
+- **Project Showcases:** 6 high-quality projects including MERN stack and Real-time Chat.
+- **Working Contact Form:** Integrated with Formspree for direct email inquiries.
+- **Animations:** Smooth scroll and reveal effects using AOS (Animate On Scroll).
+
+---
+
+## 🛠️ Tech Stack (Portfolio Website)
+- **Frontend:** React.js, Tailwind CSS, Vite
+- **State Management:** Custom Hooks
+- **Animations:** AOS (Animate On Scroll)
+- **Form Integration:** Formspree (Handling contact messages)
+- **Icons:** React Icons / Lucide-React
+- **Deployment:** Vercel, GitHub
+
+---
+
+## 📂 Project Structure
+- `src/components`: Reusable UI components (Hero, About, Projects, etc.)
+- `src/context`: Global state management logic.
+- `src/assets`: Images, mockups, and icons.
+
+---
+
+## ⚙️ Local Setup
+1. Clone the repo: `git clone [https://github.com/PrernaSingh-90/My-Portfolio.git]`
+2. Install dependencies: `npm install`
+3. Run dev server: `npm run dev`
+
+---
+
+## 📫 Connect with Me
+- **LinkedIn:** https://www.linkedin.com/in/prerna-singh-299265157/
+- **GitHub:** https://github.com/PrernaSingh-90/
+- **Gmail:** priyasingh.sp98@gmail.com
+
+##  👩‍💻 Author
+Prerna Frontend Developer

@@ -16,7 +16,7 @@ const Projects = ({ darkMode }) => {
     techs: ["MongoDB", "Express.js", "React.js", "Node.js", "JWT", "Tailwind CSS", "Mongoose", "REST API"],
     image: taskapp,
     code: "https://github.com/PrernaSingh-90/taskapp-fullstack-mern",
-    live: "#"
+    live: "https://taskapp-fullstack-mern.vercel.app/"
   },
   {
     id: 2,

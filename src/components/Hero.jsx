@@ -40,13 +40,14 @@ const Hero = ({ darkMode }) => {
 
   const theme = darkMode ? darkTheme : lightTheme;
 
-  return (
+
+
+return (
     <div className="relative overflow-hidden min-h-screen flex flex-col">
       <section id="home" className="body-font z-10 grow flex lg:items-end">
         <div className="container mx-auto flex px-4 sm:px-8 lg:px-14 py-10 lg:py-0 flex-col lg:flex-row items-center justify-between mt-10 lg:mt-0">
-          {/* LEFT CONTENT (Text & Social Icons) */}
+          {/* LEFT CONTENT  */}
           <div className="lg:w-1/2 w-full flex flex-col items-start text-left mb-12 lg:mb-0">
-            {/* Social Icons Row */}
             <div
               className="flex justify-start gap-4 mb-6"
               data-aos="fade-up"
@@ -71,7 +72,6 @@ const Hero = ({ darkMode }) => {
               ))}
             </div>
 
-            {/* Heading */}
             <h1
               className={`title-font text-4xl sm:text-5xl lg:text-6xl mb-4 font-bold ${theme.textPrimary}`}
               data-aos="fade-up"
@@ -79,8 +79,6 @@ const Hero = ({ darkMode }) => {
             >
               Hi, I'm <span className="text-orange-500">Prerna</span>
             </h1>
-
-            {/* Paragraph */}
             <p
               className={`mb-8 leading-relaxed max-w-md text-base sm:text-lg ${theme.textSecondary}`}
               data-aos="fade-up"
@@ -91,7 +89,6 @@ const Hero = ({ darkMode }) => {
               experiences with clean code.
             </p>
 
-            {/* Buttons Row */}
             <div
               className="flex flex-row items-center justify-start gap-4 w-full"
               data-aos="fade-up"
@@ -112,14 +109,13 @@ const Hero = ({ darkMode }) => {
             </div>
           </div>
 
-          {/* RIGHT CONTENT (Character & Hi Icon) */}
+          {/* RIGHT CONTENT */}
           <div
             className="lg:w-1/2 w-full flex justify-center lg:justify-end mt-8 lg:mt-20 lg:translate-y-10"
             data-aos="fade-left"
             data-aos-delay="400"
           >
             <div className="relative w-full max-w-75 sm:max-w-100 lg:max-w-112.5">
-              {/* The Character Image */}
               <div className="relative z-10">
                 <img
                   src={hero01}
@@ -128,23 +124,20 @@ const Hero = ({ darkMode }) => {
                 />
               </div>
 
-              {/* THE "HI" ICON - Now Perfectly Positioned */}
               <img
                 src={hi}
                 alt="Hi Icon"
-                className="absolute top-7.5 left-5 sm:top-10 sm:left-10 w-20 h-20 sm:w-40 sm:h-40 object-contain animate-bounce opacity-90 z-10"
+                className="absolute top-9 left-12 sm:top-10 sm:left-10 w-20 h-20 sm:w-40 sm:h-40 object-contain animate-bounce opacity-90 z-10"
               />
             </div>
           </div>
         </div>
       </section>
 
-      {/* Decorative Background Circle */}
       <div
         className={`absolute -bottom-20 -right-20 w-64 h-64 sm:w-96 sm:h-96 ${theme.decorativeCircle} rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-pulse hidden sm:block`}
       ></div>
     </div>
   );
 };
-
 export default Hero;

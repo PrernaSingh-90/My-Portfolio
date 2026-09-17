@@ -3,7 +3,7 @@ import { DownloadIcon, Mail } from "lucide-react";
 import linkedin from "../assets/linkedin.png";
 import github from "../assets/github.png";
 import gmail from "../assets/gmail.png";
-import CV from "../assets/CV.pdf";
+import myresume from "../assets/my-resume.pdf";
 import hero01 from "../assets/hero01.png";
 import hi from "../assets/hi.png";
 
@@ -94,7 +94,7 @@ return (
               data-aos="fade-up"
               data-aos-delay="700"
             >
-              <a href={CV} download className="w-auto">
+              <a href={myresume} download className="w-auto">
                 <button className="inline-flex items-center text-white bg-linear-to-r from-orange-500 to-amber-500 border-0 py-3 px-6 sm:px-8 hover:shadow-[0_0_40px_rgba(255,165,0,0.7)] rounded-full text-base sm:text-lg font-semibold transition-all duration-300">
                   <DownloadIcon className="w-5 h-5 mr-2" /> Download CV
                 </button>
